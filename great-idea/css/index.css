@@ -31,9 +31,9 @@ footer, header, hgroup, menu, nav, section {
 body {
 	line-height: 1;
 }
-ol, ul {
+/* ol, ul {
 	list-style: none;
-}
+} */
 blockquote, q {
 	quotes: none;
 }
@@ -110,6 +110,7 @@ header img.logo{
 	padding: 8px;
 	font-size: 18px;
 	text-align: center;
+	margin-top: 20px;
 }
 .content, .bottom{
 	margin-top: 60px;
@@ -122,7 +123,7 @@ header img.logo{
 .services, .product, .vision{
 	width: 32%;
 }
-.content{
+.content, .service, .products{
 	
 	border-bottom: 1px solid black;
 }
@@ -138,5 +139,49 @@ header img.logo{
 }
 .footer{
 	text-align: center;
-
+	padding-bottom: 20px;
+}
+.services-header-img{
+	margin: 30px 0 45px 0;
+}
+h1{
+	font-size: 24px;
+}
+.service{
+	padding-bottom: 30px;
+}
+.products{
+	padding: 60px 0 30px 0;
+	display:flex;
+	justify-content:space-between;
+	flex-wrap: wrap;
+}
+.design, .ux, .marketing, .web, .ios, .android{
+	width: 48%;
+	margin: 0 0 35px 0;
+	padding: 25px 20px 20px 25px;
+	border: 1px solid black;
+	background-color:#D3D3D3;
+}
+.button{
+	width: fit-content;
+	margin: 20px 0 0 0;
+	border: 1px solid black;
+	box-sizing: border-box;
+	background-color: white;
+	padding: 10px 10px 10px 10px;
+}
+.info{
+	display: flex;
+	justify-content: space-between;
+	margin: 60px 0 60px 0;
+}
+li{
+	margin: 10px 10px 10px 10px;
+}
+ul{
+	margin-top: 20px;
+}
+.details{
+	width: 40%;
 }
