@@ -64,3 +64,79 @@ h1, h2, h3, h4, h5 {
 }
 
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
+.container{
+	width: 900px;
+	margin: auto;
+}
+header{
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	margin-top: 35px;
+}
+header nav a{
+	margin: 0 20px;
+}
+header img.logo{
+	margin-left: 140px;
+	margin-top: -15px;
+}
+.intro{
+	padding-top: 60px;
+	/* padding-left: 20%; */
+	/* padding-right: 30%; */
+	display:flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	padding-bottom: 60px;
+	border-bottom: 1px solid black;
+}
+.title{
+	margin-top: 80px;
+	width: 50%;
+	padding-left: 10%;
+}
+.headerimage{
+	width: 35%;
+}
+.title h1{
+	/* padding-left: -60px; */
+	font-size: 50px;
+	text-align: center;
+}
+.title p{
+	/* padding-left: -60px; */
+	border: 1px solid black;
+	padding: 8px;
+	font-size: 18px;
+	text-align: center;
+}
+.content, .bottom{
+	margin-top: 60px;
+}
+.top, .bottom{
+	display:flex;
+	justify-content: space-between;
+	padding-bottom: 60px;
+}
+.services, .product, .vision{
+	width: 32%;
+}
+.content{
+	
+	border-bottom: 1px solid black;
+}
+.contact{
+	padding-top: 50px;
+}
+.spacing1{
+	margin-top:20px;
+}
+.spacing{
+	margin-top:8px;
+	padding-bottom: 30px;
+}
+.footer{
+	text-align: center;
+
+}
